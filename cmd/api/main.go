@@ -48,4 +48,5 @@ func startServer(cfg *config) {
 
 func main() {
 	startServer(&config{4000, "development"})
+
 }
